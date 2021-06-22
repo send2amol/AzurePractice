@@ -1,0 +1,65 @@
+{
+	"name": "ElmahTable",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "eMS_MIG",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ErrorId",
+				"type": "uniqueidentifier"
+			},
+			{
+				"name": "Application",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Host",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Type",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Source",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Message",
+				"type": "nvarchar"
+			},
+			{
+				"name": "User",
+				"type": "nvarchar"
+			},
+			{
+				"name": "StatusCode",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "TimeUtc",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Sequence",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "AllXml",
+				"type": "ntext"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "ELMAH_Error"
+		}
+	}
+}
