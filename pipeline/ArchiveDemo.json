@@ -24,11 +24,9 @@
 					"sink": {
 						"type": "AzureTableSink",
 						"azureTableInsertType": "merge",
-						"writeBatchSize": 10000
+						"writeBatchSize": 1000
 					},
 					"enableStaging": false,
-					"parallelCopies": 1,
-					"dataIntegrationUnits": 2,
 					"translator": {
 						"type": "TabularTranslator",
 						"mappings": [
