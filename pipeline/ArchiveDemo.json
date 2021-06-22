@@ -27,7 +27,7 @@
 						"writeBatchSize": 10000
 					},
 					"enableStaging": false,
-					"parallelCopies": 2,
+					"parallelCopies": 1,
 					"dataIntegrationUnits": 2,
 					"translator": {
 						"type": "TabularTranslator",
