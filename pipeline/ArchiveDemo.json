@@ -29,9 +29,121 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "ErrorId",
+									"type": "Guid",
+									"physicalType": "uniqueidentifier"
+								},
+								"sink": {
+									"name": "ErrorID"
+								}
+							},
+							{
+								"source": {
+									"name": "Application",
+									"type": "String",
+									"physicalType": "nvarchar"
+								},
+								"sink": {
+									"name": "Application"
+								}
+							},
+							{
+								"source": {
+									"name": "Host",
+									"type": "String",
+									"physicalType": "nvarchar"
+								},
+								"sink": {
+									"name": "Host"
+								}
+							},
+							{
+								"source": {
+									"name": "Type",
+									"type": "String",
+									"physicalType": "nvarchar"
+								},
+								"sink": {
+									"name": "Type"
+								}
+							},
+							{
+								"source": {
+									"name": "Source",
+									"type": "String",
+									"physicalType": "nvarchar"
+								},
+								"sink": {
+									"name": "Source"
+								}
+							},
+							{
+								"source": {
+									"name": "Message",
+									"type": "String",
+									"physicalType": "nvarchar"
+								},
+								"sink": {
+									"name": "Message"
+								}
+							},
+							{
+								"source": {
+									"name": "User",
+									"type": "String",
+									"physicalType": "nvarchar"
+								},
+								"sink": {
+									"name": "User"
+								}
+							},
+							{
+								"source": {
+									"name": "TimeUtc",
+									"type": "DateTime",
+									"physicalType": "datetime"
+								},
+								"sink": {
+									"name": "TimeUtc"
+								}
+							},
+							{
+								"source": {
+									"name": "StatusCode",
+									"type": "Int32",
+									"physicalType": "int"
+								},
+								"sink": {
+									"name": "StatusCode"
+								}
+							},
+							{
+								"source": {
+									"name": "Sequence",
+									"type": "Int32",
+									"physicalType": "int"
+								},
+								"sink": {
+									"name": "Sequence"
+								}
+							},
+							{
+								"source": {
+									"name": "AllXml",
+									"type": "String",
+									"physicalType": "ntext"
+								},
+								"sink": {
+									"name": "AllXml"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
-							"allowDataTruncation": true,
+							"allowDataTruncation": false,
 							"treatBooleanAsNumber": false
 						}
 					}
