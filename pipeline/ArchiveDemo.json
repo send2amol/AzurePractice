@@ -27,6 +27,8 @@
 						"writeBatchSize": 10000
 					},
 					"enableStaging": false,
+					"parallelCopies": 2,
+					"dataIntegrationUnits": 2,
 					"translator": {
 						"type": "TabularTranslator",
 						"mappings": [
@@ -37,7 +39,7 @@
 									"physicalType": "uniqueidentifier"
 								},
 								"sink": {
-									"name": "ErrorID"
+									"name": "ErrorId"
 								}
 							},
 							{
