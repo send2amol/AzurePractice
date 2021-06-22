@@ -24,6 +24,7 @@
 					"sink": {
 						"type": "AzureTableSink",
 						"azureTableInsertType": "merge",
+						"azureTablePartitionKeyName": "ErrorId",
 						"writeBatchSize": 1000
 					},
 					"enableStaging": false,
