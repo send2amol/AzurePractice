@@ -1,0 +1,9 @@
+{
+	"name": "MPNDataFactory1",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9cecf3d7-cf13-47c3-b566-07996c1873f6",
+		"tenantId": "57084445-e440-441f-bc3f-fabe8cbb2535"
+	}
+}
