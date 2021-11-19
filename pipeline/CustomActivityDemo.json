@@ -32,10 +32,7 @@
 							}
 						],
 						"datasets": []
-					},
-					"assemblyName": "MoveBlobCustomActivity.dll",
-					"entryPoint": "MoveBlobCustomActivityNS.MoveBlobCustomActivity",
-					"packageFile": "customactivitycontainer/MoveBlobCustomActivity.zip"
+					}
 				},
 				"linkedServiceName": {
 					"referenceName": "AzureBatch",
