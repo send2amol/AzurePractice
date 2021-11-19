@@ -22,7 +22,12 @@
 					},
 					"folderPath": "customactivitycontainer",
 					"referenceObjects": {
-						"linkedServices": [],
+						"linkedServices": [
+							{
+								"referenceName": "CustomBlobStorage",
+								"type": "LinkedServiceReference"
+							}
+						],
 						"datasets": []
 					},
 					"assemblyName": "MoveBlobCustomActivity.dll",
