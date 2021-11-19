@@ -21,10 +21,13 @@
 						"type": "LinkedServiceReference"
 					},
 					"folderPath": "customactivitycontainer",
+					"extendedProperties": {
+						"InputFolderPath": "batchjobs/filestocheck"
+					},
 					"referenceObjects": {
 						"linkedServices": [
 							{
-								"referenceName": "CustomBlobStorage",
+								"referenceName": "AzureBatch",
 								"type": "LinkedServiceReference"
 							}
 						],
