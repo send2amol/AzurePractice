@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"command": "MoveBlobCustomActivityNS.MoveBlobCustomActivity",
+					"command": "CustomDemo.exe",
 					"resourceLinkedService": {
 						"referenceName": "CustomBlobStorage",
 						"type": "LinkedServiceReference"
