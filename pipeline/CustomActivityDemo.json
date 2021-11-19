@@ -20,7 +20,7 @@
 						"referenceName": "CustomBlobStorage",
 						"type": "LinkedServiceReference"
 					},
-					"folderPath": "customactivitycontainer",
+					"folderPath": "customdemo",
 					"extendedProperties": {
 						"InputFolderPath": "batchjobs/filestocheck"
 					},
