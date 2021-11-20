@@ -7,7 +7,7 @@
 				"type": "Custom",
 				"dependsOn": [],
 				"policy": {
-					"timeout": "0.00:03:00",
+					"timeout": "1.00:00:00",
 					"retry": 0,
 					"retryIntervalInSeconds": 30,
 					"secureOutput": false,
@@ -35,7 +35,7 @@
 					}
 				},
 				"linkedServiceName": {
-					"referenceName": "AzureBatch",
+					"referenceName": "AzureBatch2",
 					"type": "LinkedServiceReference"
 				}
 			}
