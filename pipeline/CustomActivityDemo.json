@@ -17,10 +17,10 @@
 				"typeProperties": {
 					"command": "CustomDemo.exe",
 					"resourceLinkedService": {
-						"referenceName": "CustomBlobStorage",
+						"referenceName": "AzureBlobStorage2",
 						"type": "LinkedServiceReference"
 					},
-					"folderPath": "customdemo",
+					"folderPath": "democustom",
 					"extendedProperties": {
 						"InputFolderPath": "batchjobs/filestocheck"
 					},
