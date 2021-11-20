@@ -25,12 +25,7 @@
 						"InputFolderPath": "batchjobs/filestocheck"
 					},
 					"referenceObjects": {
-						"linkedServices": [
-							{
-								"referenceName": "AzureBatch",
-								"type": "LinkedServiceReference"
-							}
-						],
+						"linkedServices": [],
 						"datasets": []
 					}
 				},
